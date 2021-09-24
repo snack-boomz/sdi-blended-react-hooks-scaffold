@@ -33,3 +33,8 @@ Your application should:
 ![pokedetails](/assets/pokedetails.png)
 ![pokegif](/assets/pokegif.gif)
 
+## Stretch Goals
+1. Implement a filter menu on the main Pokedex page that allows users to filter Pokemon by their types.
+1. Implement a search feature that allows users to search for specific Pokemon and gracefully handles any errors. This feature should implement the `useReducer` hook
+1. Write unit and integration tests for your application
+
