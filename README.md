@@ -17,7 +17,7 @@ Use the following user stories to guide your development:
 
 1. As a user, I should be able to navigate to the home page and see a list of the first 151 Pokemon, including their pictures, so that I can review the pokemon.
 1. As a user, I should be able to click on a pokemon’s picture that directs me to a view that provides additional information about that pokemon, so that I can learn more about an individual pokemon.
-  - This detailed view page should contain basic information about the Pokemon, such as flavor text, height and weight, types, base stats, and moves that the Pokemon is able to learn.
+    - This detailed view page should contain basic information about the Pokemon, such as flavor text, height and weight, types, base stats, and moves that the Pokemon is able to learn.
 1. As a user, I should be able to click a button from the detailed view of a Pokemon to go back to the original list of Pokemon.
 1. As a user, I should see a loading spinner when waiting for the page to load instead of seeing the pictures load piecemeal.
 
