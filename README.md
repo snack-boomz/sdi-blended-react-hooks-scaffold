@@ -6,8 +6,8 @@ For this activity, you will fulfill the following requirements:
 Fork & clone this repository
 
 ## Repo Directions
-- Create a new React application using `create-reacte-app`
-- Navigate into your newly created directory and run the command `npm start` to start the React server on port 3000
+- Navigate into the `front-end` directory and run the command `npm install` to install the necessary dependencies.
+- Run the command `npm start` to start the React server on port 3000.
 
 ## Project Specs
 
