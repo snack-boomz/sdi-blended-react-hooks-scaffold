@@ -1,20 +1,20 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-shadow: 8px 8px 8px black;
+}
+
+.main-content{
+  padding: 20px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +23,88 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body {
+  background-color: #282c34;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.search-image{
+  height: 120px;
+}
+
+.search-image:hover {
+  transform: scale(2);
+  transition: 0.5s;
+
+}
+
+.pokemon-buttons {
+  border: none;
+  background-color: #282c34;
+  transition: transform 0.5s, text-shadow 0.5s, box-shadow .5s;
+  color: white;
+}
+
+.pokemon-buttons:hover {
+  /* font-size: 24px; */
+  /* font-family: "Times New Roman"; */
+  text-shadow: 2px 2px 16px rgba(255, 255, 255, 0.24);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pokemon-button {
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.pokemon-container{
+  margin-top: 3px;
+  margin-left: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  position: static;
+  height: fit-content;
+  width: 120px;
+  flex-wrap: wrap;
+}
+.pokemon-info-container{
+  padding: 5px;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+}
+.info{
+  /* border: 2px solid #f0f0f0; */
+  padding: 10px;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loadingMessage {
+  font-weight: bold;
+  font-size: 12px;
+  transition-delay: 0.5s;
+  margin: 0 auto;
+  transition: height 1s width 1s font-size 1s;
+  font-size: 50px;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+.stats, .height, .weight, .types, .moves {
+  list-style-type: none;
 }
